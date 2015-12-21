@@ -1,0 +1,16 @@
+1.git命令
+git   查看选项和最常用的自命令
+git --version  查看当前git版本
+mkdir ~/ff    在当前用户目录下创建名为ff的文件夹
+linux中~代表当前用户的目录
+echo 'hello world' > index.txt  将hello world 写入到index.txt中，
+如果没有该文件，自动创建，注意命中的空格
+git init 初始化版本库
+git add xxxx.xxx  将xxxx.xxx文件添加到提交任务中
+git commit -m "提交时的备注说明" --author="名字 <邮箱>"
+提交代码时要填写提交时的备注说明和提交的用户名邮箱
+git config user.name "名字"   配置用户名
+git config user.email "邮箱"  配置邮箱
+git log 查看提交历史
+git diff  查看提交差异
+git clone 远程仓库地址  下载远程版本库(可以是github上的)
