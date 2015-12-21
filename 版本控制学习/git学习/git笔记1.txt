@@ -14,3 +14,4 @@ git config user.email "邮箱"  配置邮箱
 git log 查看提交历史
 git diff  查看提交差异
 git clone 远程仓库地址  下载远程版本库(可以是github上的)
+git push -u origin master  发布到master版本
